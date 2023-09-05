@@ -1,0 +1,58 @@
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.container {
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;
+}
+
+.container2 {
+    margin: 20% auto;
+    display: flex;
+    /*flex-direction: column;*/
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;
+}
+
+
+form {
+    margin: 20%;
+    display: flex;
+    /*flex-direction: column;*/
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;
+}
+
+.item {
+    margin: 20px auto;
+}
+
+
+form {
+    margin: 0;
+}
+
+
+.form-item {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+h1 {
+
+    font-size: 400%;
+}
+
+input {
+    margin-top: 10px;
+    width: 50px;
+}
+
+select {
+    margin-top: 10px;
+}

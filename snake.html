@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Snake</title>
+    <meta charset="UTF-8">
+    <!-- http://proger.i-forge.net/The_smallest_transparent_pixel/ -->
+    <link rel="icon" href="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=">
+    <link rel="stylesheet" href="snake.css">
+    <script src="snake.js" defer></script>
+</head>
+<body>
+<div class="stats">
+    <div class="timer">
+        <label for="timer">Time</label>
+        <input value="0" disabled="true" id="timer">
+    </div>
+    <div class="score">
+        <label for="score">Score</label>
+        <input value="0" disabled="true" id="score">
+    </div>
+    <div class="highscore">
+        <label for="highscore">Highscore</label>
+        <input value="0" disabled="true" id="highscore">
+    </div>
+</div>
+<div class="game-field" data-cell-width="50" data-cell-height="50"></div>
+</body>
+</html>

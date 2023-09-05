@@ -1,0 +1,75 @@
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    flex-direction: column;
+}
+
+
+.game-field {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px;
+}
+
+.game-field .row {
+    height: 50px;
+    display: flex;
+}
+
+.game-field .row .field {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: solid 0.5px lightgrey; */
+}
+.game-field .row .field.snake {
+    background-color: lightgreen;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.game-field .row .field.food {
+    /*background-color: red;*/
+    /*border-radius: 50%;*/
+    background: url("images/rat.png")center center no-repeat;
+}
+
+.stats {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    background-color: white;
+}
+
+#timer {
+    margin: 20px;
+    border: 2px;
+    width: 30px;
+}
+
+#score {
+    margin: 20px;
+    border: 2px;
+    width: 30px;
+}
+
+#highscore {
+    margin: 20px;
+    border: 2px;
+    width: 30px;
+}
+
+.snake {
+    background-image: url("images/img.png");
+}
+
+#head {
+    background-image: url("images/snakeheadnew.png");
+}
+

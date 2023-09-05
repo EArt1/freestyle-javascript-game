@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake</title>
+    <!-- http://proger.i-forge.net/The_smallest_transparent_pixel/ -->
+    <link rel="icon" href="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=">
+    <link rel="stylesheet" href="snake-menu.css">
+</head>
+<body>
+<div class="container">
+    <div class="item" id="title"><h1>SNAKE</h1></div>
+    <div class="item">
+        <form action="snake.html" method="GET">
+            <div class="container2">
+                <div class="form-item">
+                    <label for="cols">Cols:</label><br>
+                    <input type="number" id="cols" name="cols" value="10">
+                </div>
+                <div class="form-item">
+                    <label for="rows">Rows:</label><br>
+                    <input type="number" id="rows" name="rows" value="10">
+                </div>
+                <div class="form-item">
+                    <label for="speed">Speed:</label><br>
+                    <select id="speed" name="speed">
+                        <option value="200">ultimate</option>
+                        <option value="400">hard</option>
+                        <option value="750">medium</option>
+                        <option value="1000">easy</option>
+                    </select>
+                </div>
+            </div>
+    </div>
+    <div class="item"><input type="submit" value="Start"/></div>
+    </form>
+</div>
+</body>
+<script src="snake.js"></script>
+</html>
